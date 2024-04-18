@@ -1,0 +1,39 @@
+.players {
+  display: flex;
+  flex-direction: row;
+}
+
+.piles {
+  display: flex;
+  flex-direction: row;
+}
+
+.player {
+  width: 6rem;
+  height: 12rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  background-color: #f0ffff;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.card.red {
+  color: red;
+}
+
+.card.black {
+  color: black;
+}
